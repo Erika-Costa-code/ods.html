@@ -1,0 +1,42 @@
+body {  
+    font-Family: monospace;
+    }
+    ul {Font-Family: helvética;
+    }
+    li { 
+        list-style: circle;
+        }
+        .list {
+            list-style: square;
+            }
+        #msg {
+        font-family: monospace;
+        }
+        .light-theme{
+            color: #6d0707;
+            background: #d74ca9;
+            }
+            /*.btn{
+                position: absolute;
+                top: 150px;
+                left: 400px;
+                height: 60px;
+                border-radius: 50%
+                border= none;
+                color:var(--btnFontColor)
+                background-color:var(--btnBg)
+                } 
+            .btn:focus { outline-style: none; } 
+            .light-theme {
+                --bg: var(--green);
+                --fontColor: var(--black);
+                --btnBg: var(--black);
+                --btnFontColor: var(--white);
+                }*/
+                
+                .dark-theme{
+                --bg: var(--black);
+                --fontColor: var(--green);
+                --btnBg: var(--white);
+                --btnFontColor: var(--black);
+                }      
